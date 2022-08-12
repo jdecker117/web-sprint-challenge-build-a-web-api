@@ -14,6 +14,15 @@ function validateActionId(req, res, next){
     })
 }
 
+function validateActionPost(req, res, next){
+    if(req.body.notes == null || req.body.description == null || req.body.project_id == null){
+        next({status: 400, message: "Name, Description & Project ID Required"})
+        return
+    }
+    next();
+}
+
 module.exports = {
-    validateActionId
+    validateActionId,
+    validateActionPost
 }
