@@ -146,8 +146,8 @@ We have provided test data for all the resources.
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
-1. The core features of Node.js and Express and why they are useful.
-1. Understand and explain the use of Middleware.
-1. The basic principles of the REST architectural style.
-1. Understand and explain the use of Express Routers.
+1. The core features of Node.js and Express and why they are useful. "Node is an open-source environment that allows devs to create all kinds of server-side tools and applications in JS. Express is the most popular Node web framework. It allows devs to write handlers for routes, generate responses by inserting data into templates, set web application settings like the port to use for connecting, and add additional request processing 'middleware'." 
+1. Understand and explain the use of Middleware. "Middleware functions have access to the request object(req), the response object(res), and the next() middleware function. Middleware functions can execute any code, make changes to the req/res objects, end the request-response cycle, and call the next middleware function." 
+1. The basic principles of the REST architectural style. "In the REST architectural style, the implementation of the client and the implementation of the server can be done independently without each knowing about the other. This means that the code on the client side can be changed at any time without affecting the operation of the server, and the code on the server side can be changed without affecting the operation of the client."
+1. Understand and explain the use of Express Routers. "The Express Router() method is used to create a new router object. Once created, it can be used to add middleware and HTTP method routes (such as get, put, post, etc..)."
 1. Describe tooling used to manually test the correctness of an API.
